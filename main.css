@@ -85,7 +85,7 @@ li{
 .spacing{
 
     min-height: 70vh;
-    min-width: 10%;
+    min-width: 10vw;
     text-align: center;
     padding: 15px;
 }
