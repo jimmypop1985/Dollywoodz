@@ -8,7 +8,7 @@ html, body{
 }
 
 body{
-    background-color: palevioletred;
+    background-color: black;
     transition: all 2s;
 }
 
@@ -39,13 +39,13 @@ body{
 
 .header h1{
     font-family: 'Londrina Shadow', cursive;
-    color: white;
+    color: palevioletred;
     font-size: 8vw; 
 }
 
 .subtitle h1{
     font-family: 'Londrina Shadow', cursive;
-    color: white;
+    color: palevioletred;
     font-size: 6vw; 
 }
 
@@ -58,6 +58,7 @@ body{
 }
 h2{
     font-family: 'Mystery Quest', cursive;
+    color: yellow
 }
 
 p, li, h4, h3{
@@ -65,8 +66,16 @@ p, li, h4, h3{
     font-size: 2vw;
 }
 
+h4{
+    color: silver;
+}
+
 li{
+    color: black;
+}
+.nav a{
     padding:1vh;
+    color: silver;
 }
 
 
@@ -90,6 +99,13 @@ li{
     padding: 15px;
 }
 
+p{
+    color: silver;
+}
+
+.party p{
+    color: black;
+}
 
 #trigger101:checked + .showp,#trigger1:checked + .showp, #trigger2:checked + .showp, #trigger3:checked + .showp, #trigger4:checked + .showp , #trigger5:checked + .showp, #trigger6:checked + .showp, #trigger7:checked + .showp, #trigger8:checked + .showp, #trigger9:checked + .showp, #trigger10:checked + .showp
 , #trigger11:checked + .showp, #trigger12:checked + .showp, #trigger13:checked + .showp, #trigger14:checked + .showp, #trigger15:checked + .showp, #trigger16:checked + .showp, #trigger17:checked + .showp, #trigger18:checked + .showp, #trigger19:checked + .showp, #trigger20:checked + .showp, #trigger21:checked + .showp, #trigger22:checked + .showp,#trigger23:checked + .showp{
@@ -136,17 +152,9 @@ li{
 .images:hover{
     transform: scale(1.2,1.2);
 }
-.box1 { background: #fff090}
-.box2 { background:#f0d878 }
-.box3 { background:#f0d848 }
-.box4 { background: #f0a818}
-.box5 { background: sandybrown }
-.box6 { background:#d89030 }
-.box7 { background: yellow }
-#party1 { background: #fff090}
-#party2 { background:#f0d878 }
-#party3 { background:#f0d848 }
-#party4 { background: #f0a818}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, #party1, #party2, #party3, #party4{
+    background: palevioletred
+}
 
 
  h3 {
@@ -156,9 +164,9 @@ li{
     line-height: 10vw;
     border-radius: 50%;
     font-size: 4vw;;
-    color: navy;
+    color: palevioletred;
     text-align: center;
-    background: palevioletred;
+    background: silver;
   }
   #contactcontainer{
       display: flex;
@@ -202,7 +210,7 @@ li{
 	border: none;
 	outline: none;
 	border-bottom: 1px solid;
-	color: white;
+	color: silver;
 	font-size: 20px;
     font-weight:600;
 	margin-bottom: 10vh;
@@ -217,9 +225,9 @@ li{
 
 button{
     align-content: center;
-	background: palevioletred;
-	color: white;
-	border: 1px solid white;
+	background: black;
+	color: silver;
+	border: 1px solid silver;
 	padding: 6px 20px;
 	border-radius: 8px;
 	text-transform: uppercase;
@@ -230,10 +238,13 @@ button{
 }
 
 button:hover{
-	background: white;
-	color: palevioletred;
-	border: 1px solid palevioletred;
+	background: silver;
+	border: 1px solid black;
 
+}
+
+button:hover h4{
+    color: black;
 }
 
 .container h2:hover{
@@ -266,4 +277,11 @@ button:hover{
 
 .footer p{
     font-size: 1vw;
+}
+
+#main{
+    min-height: 30vh;
+    min-width: 15vw;
+    max-height: 60vh;
+    max-width: 30vw;
 }

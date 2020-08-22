@@ -26,7 +26,7 @@
 	else{
 	$email_from = $visitor_email;
 	$email_subject = 'New website enquiry';
-	$email_body = "You have received a new website enquiry from Twenty20 Hospitality\ n".
+	$email_body = "You have received a new website enquiry from Dollywoodz\ n".
 		"From: $name \n".
 		"Email Address $visitor_email \n".
 		"Enquiry $message".
